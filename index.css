@@ -1,0 +1,37 @@
+main{
+    background-color: #eee;
+}
+
+
+header{
+    text-align: center;
+}
+.image-div{
+    background-color: #fff;
+    text-align: center;   
+}
+img{
+    
+    height: auto;
+}
+
+.title{
+    text-align: center;
+ padding-bottom: 20px;
+}
+
+.timeline-div{
+    width: 50%;
+    margin: auto;
+    /* text-align: center; */
+}
+.timeline p{
+    line-height: 2rem;
+    text-transform:capitalize;
+}
+
+.timeline p::before{
+    content:"• ";
+}
+
+
