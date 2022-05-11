@@ -13,6 +13,7 @@ header{
 img{
     
     height: auto;
+    width: 50%;
 }
 
 .title{
@@ -34,4 +35,15 @@ img{
     content:"• ";
 }
 
+@media (max-width:700px) {
+    .timeline-div{
+        width: 80%;
+        margin: auto;
+}
 
+img{
+    
+    height: auto;
+    width: 100%
+}
+}
